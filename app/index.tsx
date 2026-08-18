@@ -4,6 +4,7 @@ import KodeKuponDiskonOtomatis from "./variable/KodeKuponDiskonOtomatis";
 import KonversiTipeDataHarga from "./variable/KonversiTipeDataHarga";
 import SensorKataKasar from "./variable/SensorKataKasar";
 import SistemRegistrasiAkun from "./variable/SistemRegistrasiAkun";
+import SistemValidasiUsiaPengguna from "./variable/SistemValidasiUsiaPengguna";
 import ValidasiNamaPenggunaBaru from "./variable/ValidasiNamaPenggunaBaru";
 
 export default function Index() {
@@ -29,6 +30,8 @@ export default function Index() {
         <KonversiTipeDataHarga />
         <h1>Soal Ke-6</h1>
         <KalkulatorDiskonBelanjaHarian />
+        <h1>Soal Ke-7</h1>
+        <SistemValidasiUsiaPengguna />
       </View>
     </ScrollView>
   );
