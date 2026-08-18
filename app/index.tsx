@@ -1,4 +1,5 @@
 import { ScrollView, View } from "react-native";
+import KalkulatorDiskonBelanjaHarian from "./variable/KalkulatorDiskonBelanjaHarian";
 import KodeKuponDiskonOtomatis from "./variable/KodeKuponDiskonOtomatis";
 import KonversiTipeDataHarga from "./variable/KonversiTipeDataHarga";
 import SensorKataKasar from "./variable/SensorKataKasar";
@@ -26,6 +27,8 @@ export default function Index() {
         <KodeKuponDiskonOtomatis />
         <h1>Soal Ke-5</h1>
         <KonversiTipeDataHarga />
+        <h1>Soal Ke-6</h1>
+        <KalkulatorDiskonBelanjaHarian />
       </View>
     </ScrollView>
   );
