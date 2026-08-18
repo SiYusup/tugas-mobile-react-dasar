@@ -1,1 +1,8 @@
-{ "recommendations": ["expo.vscode-expo-tools"] }
+{
+    "recommendations": [
+        "expo.vscode-expo-tools",
+        "burkeholland.simple-react-snippets",
+        "dsznajder.es7-react-js-snippets",
+        "rodrigovallades.es7-react-js-snippets"
+    ]
+}

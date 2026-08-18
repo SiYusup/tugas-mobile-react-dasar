@@ -1,5 +1,5 @@
 {
-  "extends": "expo/tsconfig.base",
+  "extends": ["expo/tsconfig.base",  "@react-native/typescript-config"],
   "compilerOptions": {
     "strict": true,
     "paths": {
@@ -13,5 +13,6 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-  ]
+, "app/var.tsx"  ],
 }
+
