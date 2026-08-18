@@ -1,5 +1,5 @@
 import { ScrollView, View } from "react-native";
-import RocketMeluncur from "./minggu_2/soal_perulangan/RocketMeluncur";
+import SistemRegistrasiAkun from "./variable/SistemRegistrasiAkun";
 
 export default function Index() {
   return (
@@ -12,13 +12,7 @@ export default function Index() {
           justifyContent: "center",
         }}
       >
-        {/* <CekKelulusan />
-        <PeringatanCuaca /> */}
-        {/* <TombolLogin />
-        <HargaBelanja />
-        <CekToko />
-        <CetakAntrian /> */}
-        <RocketMeluncur />
+        <SistemRegistrasiAkun />
       </View>
     </ScrollView>
   );
