@@ -1,5 +1,6 @@
 import { ScrollView, View } from "react-native";
 import KodeKuponDiskonOtomatis from "./variable/KodeKuponDiskonOtomatis";
+import KonversiTipeDataHarga from "./variable/KonversiTipeDataHarga";
 import SensorKataKasar from "./variable/SensorKataKasar";
 import SistemRegistrasiAkun from "./variable/SistemRegistrasiAkun";
 import ValidasiNamaPenggunaBaru from "./variable/ValidasiNamaPenggunaBaru";
@@ -23,6 +24,8 @@ export default function Index() {
         <SensorKataKasar />
         <h1>Soal Ke-4</h1>
         <KodeKuponDiskonOtomatis />
+        <h1>Soal Ke-5</h1>
+        <KonversiTipeDataHarga />
       </View>
     </ScrollView>
   );
