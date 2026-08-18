@@ -6,6 +6,7 @@ import SensorKataKasar from "./variable/SensorKataKasar";
 import SistemRegistrasiAkun from "./variable/SistemRegistrasiAkun";
 import SistemValidasiUsiaPengguna from "./variable/SistemValidasiUsiaPengguna";
 import ValidasiNamaPenggunaBaru from "./variable/ValidasiNamaPenggunaBaru";
+import VerifikasiKemananLoginGanda from "./variable/VerifikasiKeamananLoginGanda";
 
 export default function Index() {
   return (
@@ -32,6 +33,8 @@ export default function Index() {
         <KalkulatorDiskonBelanjaHarian />
         <h1>Soal Ke-7</h1>
         <SistemValidasiUsiaPengguna />
+        <h1>Soal Ke-8</h1>
+        <VerifikasiKemananLoginGanda />
       </View>
     </ScrollView>
   );
