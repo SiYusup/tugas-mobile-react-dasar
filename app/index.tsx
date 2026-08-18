@@ -2,6 +2,8 @@ import { ScrollView, View } from "react-native";
 import KalkulatorDiskonBelanjaHarian from "./variable/KalkulatorDiskonBelanjaHarian";
 import KodeKuponDiskonOtomatis from "./variable/KodeKuponDiskonOtomatis";
 import KonversiTipeDataHarga from "./variable/KonversiTipeDataHarga";
+import PengecekkanSyaratBeasiswaSekolah from "./variable/PengecekkanSyaratBeasiswaSekolah";
+import ScopeVariableLetdanVar from "./variable/ScopeVariableLetdanVar";
 import SensorKataKasar from "./variable/SensorKataKasar";
 import SistemRegistrasiAkun from "./variable/SistemRegistrasiAkun";
 import SistemValidasiUsiaPengguna from "./variable/SistemValidasiUsiaPengguna";
@@ -35,6 +37,10 @@ export default function Index() {
         <SistemValidasiUsiaPengguna />
         <h1>Soal Ke-8</h1>
         <VerifikasiKemananLoginGanda />
+        <h1>Soal Ke-9</h1>
+        <PengecekkanSyaratBeasiswaSekolah />
+        <h1>Soal Ke-10</h1>
+        <ScopeVariableLetdanVar />
       </View>
     </ScrollView>
   );
