@@ -1,6 +1,7 @@
 import { View } from "react-native";
 import CekKelulusan from "../condition/CekKelulusan";
 import DiskonKeranjangBelanja from "../condition/DiskonKeranjangBelanja";
+import KetersediaanStockProduk from "../condition/KetersediaanStockProduk";
 import ModeTampilan from "../condition/ModeTampilan";
 import PeringatanCuaca from "../condition/PeringatanCuaca";
 import StatusKeaktifanToko from "../condition/StatusKeaktifanToko";
@@ -35,6 +36,7 @@ export default function Index() {
       <h1>Soal Ke-8</h1>
       <TarifParkirKendaraan />
       <h1>Soal Ke-9</h1>
+      <KetersediaanStockProduk />
       <h1>Soal Ke-10</h1>
     </View>
   );
