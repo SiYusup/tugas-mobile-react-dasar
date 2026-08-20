@@ -4,6 +4,7 @@ import DiskonKeranjangBelanja from "../condition/DiskonKeranjangBelanja";
 import KetersediaanStockProduk from "../condition/KetersediaanStockProduk";
 import ModeTampilan from "../condition/ModeTampilan";
 import PeringatanCuaca from "../condition/PeringatanCuaca";
+import SistemRekomendasiFilm from "../condition/SistemRekomendasiFilm";
 import StatusKeaktifanToko from "../condition/StatusKeaktifanToko";
 import StatusLoginPengguna from "../condition/StatusLoginPengguna";
 import TarifParkirKendaraan from "../condition/TarifParkirKendaraan";
@@ -38,6 +39,7 @@ export default function Index() {
       <h1>Soal Ke-9</h1>
       <KetersediaanStockProduk />
       <h1>Soal Ke-10</h1>
+      <SistemRekomendasiFilm />
     </View>
   );
 }
