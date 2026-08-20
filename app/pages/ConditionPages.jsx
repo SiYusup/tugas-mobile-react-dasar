@@ -1,6 +1,7 @@
 import { View } from "react-native";
 import CekKelulusan from "../condition/CekKelulusan";
 import PeringatanCuaca from "../condition/PeringatanCuaca";
+import StatusLoginPengguna from "../condition/StatusLoginPengguna";
 
 export default function Index() {
   return (
@@ -17,6 +18,7 @@ export default function Index() {
       <h1>Soal Ke-2</h1>
       <PeringatanCuaca />
       <h1>Soal Ke-3</h1>
+      <StatusLoginPengguna />
       <h1>Soal Ke-4</h1>
       <h1>Soal Ke-5</h1>
       <h1>Soal Ke-6</h1>
