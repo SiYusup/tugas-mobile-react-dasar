@@ -5,6 +5,7 @@ import ModeTampilan from "../condition/ModeTampilan";
 import PeringatanCuaca from "../condition/PeringatanCuaca";
 import StatusKeaktifanToko from "../condition/StatusKeaktifanToko";
 import StatusLoginPengguna from "../condition/StatusLoginPengguna";
+import TarifParkirKendaraan from "../condition/TarifParkirKendaraan";
 import ValidasiPasswordPendaftaran from "../condition/ValidasiPasswordPendaftaran";
 
 export default function Index() {
@@ -32,6 +33,7 @@ export default function Index() {
       <h1>Soal Ke-7</h1>
       <ValidasiPasswordPendaftaran />
       <h1>Soal Ke-8</h1>
+      <TarifParkirKendaraan />
       <h1>Soal Ke-9</h1>
       <h1>Soal Ke-10</h1>
     </View>
