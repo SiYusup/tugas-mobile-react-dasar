@@ -10,6 +10,6 @@
 export default function PengembanganModulKeranjang() {
   let keranjangA = ["Sepatu", "Baju"];
   let keranjangB = ["Tas", "Topi"];
-  let combinasiArray = [...keranjangA, ...keranjangB];
+  let kommbinasiArray = [...keranjangA, ...keranjangB];
   console.log(kommbinasiArray);
 }
